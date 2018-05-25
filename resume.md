@@ -1,11 +1,20 @@
 Kyle Sykes, Ph.D.
-----------
+-----------------
 **kyle.a.sykes@gmail.com**  
 *https://www.github.com/kylesykes*
 
 I'm a data scientist who thrives on having a tough problem to chew on. I have a background in computational mathematics and experience working in government and healthcare industries. I have 4 years of using Python professionally for both data science purposes as well as developing production services and pipelines.  I have an interest in neural networks, specifically related to image recognition problems. I've lately particularly enjoyed building, deploying, and managing data science services using Docker/Kubernetes.  
 
 I also have a passion for education. I have a background in mathematics education and have been teaching mathematics and programming to middle school kids since 2012. In my professional career, this means I thoroughly enjoy mentoring members of the team and I love finding opportunities to help my team learn, as well as utilize any opportunities to continue learning myself.
+
+
+Tools and Technologies
+----------------------
+- Languages: Most experienced with Python, SQL.  Some experience with R, Bash
+- Data/Machine Learning: pandas/numpy/scipy, jupyter, scikit-learn, Keras/Tensorflow
+- Web/Deployment: Docker, Kubernetes, Flask, CI/CD tools (Visual Studio Team Services most recently)
+- Visualization: Tableau (including Tableau Server), PowerBI, Plotly (Dash), Bokeh
+- Databases: Variety of SQL flavored databases, CosmosDB (Table and MongoDB APIs), Elasticsearch
 
 
 Work Experience
@@ -17,6 +26,7 @@ As a senior data scientist at Care Otter, I have been involved in a large number
 I've done plenty so far while here and the list just keeps on growing! So far I've managed to...
 
 - Setup and maintain the data science infrastructure on Azure
+- Created robust Python library to authenticate and interact with Avenel backend REST services
 - Develop multiple production web applications using Flask
 - Manage deployments of data science services using Docker containers hosted with Kubernetes
 - Develop and manage the ingestion pipeline of clinical information from our initial client's Microsoft SQL Server to Azure CosmosDB
@@ -24,6 +34,7 @@ I've done plenty so far while here and the list just keeps on growing! So far I'
 - Setup the infrastructure to parse mobile events from logs for Mobile Analytics purposes
 - Develop Meaningful Use calculations and reports which led to a successful certification of our product
 - Provide guidance, education, and assistance to junior members of the team where possible on their various projects (and get just as much!)
+
 
 *Jun 2016 - Apr 2017*  
 **Data Scientist** at Federal Government  

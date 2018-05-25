@@ -1,4 +1,4 @@
-# Makefile
+# Makefile adapted from https://gist.github.com/kristopherjohnson/7466917
 # 
 # Converts Markdown to other formats (HTML, PDF, DOCX, RTF, ODT, EPUB) using Pandoc
 # <http://johnmacfarlane.net/pandoc/>
@@ -17,7 +17,7 @@ EXPORTED_DOCS=\
 
 RM=/bin/rm
 
-PANDOC=/usr/local/bin/pandoc
+PANDOC=pandoc
 
 PANDOC_OPTIONS=--standalone
 
@@ -28,27 +28,19 @@ PANDOC_RTF_OPTIONS=
 PANDOC_ODT_OPTIONS=
 PANDOC_EPUB_OPTIONS=--to epub3
 
+OUTPUT_DIR=output/
+
 
 # Pattern-matching Rules
 
 %.html : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_HTML_OPTIONS) -o $@ $<
+	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_HTML_OPTIONS) -o $(OUTPUT_DIR)$@ $<
 
 %.pdf : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_PDF_OPTIONS) -o $@ $<
+	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_PDF_OPTIONS) -o $(OUTPUT_DIR)$@ $<
 	
 %.docx : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_DOCX_OPTIONS) -o $@ $<
-
-%.rtf : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_RTF_OPTIONS) -o $@ $<
-
-%.odt : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_ODT_OPTIONS) -o $@ $<
-
-%.epub : %.md
-	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_EPUB_OPTIONS) -o $@ $<
-
+	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_DOCX_OPTIONS) -o $(OUTPUT_DIR)$@ $<
 
 # Targets and dependencies
 
