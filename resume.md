@@ -14,7 +14,7 @@ Tools and Technologies
 - Data/Machine Learning: pandas/numpy/scipy, jupyter, scikit-learn, Keras/Tensorflow
 - Web/Deployment: Docker, Kubernetes, Flask, CI/CD tools (Visual Studio Team Services most recently)
 - Visualization: Tableau (including Tableau Server), PowerBI, Plotly (Dash), Bokeh
-- Databases: Variety of SQL flavored databases, CosmosDB (Table and MongoDB APIs), Elasticsearch
+- Databases: Variety of SQL flavored databases, CosmosDB (Table and SQL APIs), Elasticsearch
 
 
 Work Experience
