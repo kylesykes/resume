@@ -30,6 +30,7 @@ I've done plenty so far while here and the list just keeps on growing! So far I'
 - Develop multiple production web applications using Flask
 - Manage deployments of data science services using Docker containers hosted with Kubernetes
 - Develop and manage the ingestion pipeline of clinical information from our initial client's Microsoft SQL Server to Azure CosmosDB
+- Develop and manage the analytics pipeline from CosmosDB to Azure Data Lake for analytics and visualization of clinical data using PowerBI
 - Maintain the machine learning service behind our app, Postulate, which highlights clinical items that are relevant to the provider
 - Setup the infrastructure to parse mobile events from logs for Mobile Analytics purposes
 - Develop Meaningful Use calculations and reports which led to a successful certification of our product
